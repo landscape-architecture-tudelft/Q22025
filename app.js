@@ -26,57 +26,51 @@ async function loadMarkdown() {
     }
 }
 
-// Process custom iframe tags into proper iframe elements
+// Process custom iframe tags and raw HTML iframes into proper iframe elements
 function processIframes(html) {
-    // Split content into header and body
-    const lines = html.split('\n');
-    let headerHtml = '';
-    let bodyHtml = '';
-    let gridItems = [];
-    let currentTitle = '';
-    let inHeader = true;
+    // Create a temporary div to parse the HTML
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = html;
     
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i];
+    // Extract title
+    const h1 = tempDiv.querySelector('h1');
+    const headerTitle = h1 ? h1.textContent : 'IFrame Grid Gallery';
+    
+    // Extract all iframes
+    const iframes = tempDiv.querySelectorAll('iframe');
+    const gridItems = [];
+    
+    iframes.forEach((iframe, index) => {
+        const src = iframe.getAttribute('src');
+        const title = iframe.getAttribute('title') || `IFrame ${index + 1}`;
         
-        // Check if we've moved past the header (first hr or first iframe)
-        if (line.includes('<hr>') || line.includes('[iframe')) {
-            inHeader = false;
+        if (src) {
+            gridItems.push({
+                title: title,
+                url: src,
+                aspectRatio: 'default'
+            });
         }
+    });
+    
+    // Also look for custom [iframe] tags
+    const customIframeRegex = /\[iframe(?::(\w+))?\](.*?)\[\/iframe(?::\w+)?\]/g;
+    let match;
+    const htmlText = tempDiv.innerHTML;
+    
+    while ((match = customIframeRegex.exec(htmlText)) !== null) {
+        const aspectRatio = match[1] || 'default';
+        const url = match[2];
         
-        if (inHeader) {
-            headerHtml += line + '\n';
-        } else {
-            // Look for h3 headers (titles)
-            if (line.includes('<h3>')) {
-                currentTitle = line.replace(/<\/?h3>/g, '').trim();
-            }
-            
-            // Look for iframe tags
-            const iframeMatch = line.match(/\[iframe(?::(\w+))?\](.*?)\[\/iframe(?::\w+)?\]/);
-            if (iframeMatch) {
-                const aspectRatio = iframeMatch[1] || 'default';
-                const url = iframeMatch[2];
-                
-                gridItems.push({
-                    title: currentTitle,
-                    url: url,
-                    aspectRatio: aspectRatio
-                });
-                
-                currentTitle = ''; // Reset title
-            } else if (line.includes('<hr>')) {
-                // Add footer content
-                bodyHtml += line + '\n';
-            } else if (!line.includes('<h3>')) {
-                // Add other content (like footer text)
-                bodyHtml += line + '\n';
-            }
-        }
+        gridItems.push({
+            title: `Custom IFrame ${gridItems.length + 1}`,
+            url: url,
+            aspectRatio: aspectRatio
+        });
     }
     
     // Build the header
-    let result = '<div class="header">' + headerHtml + '</div>';
+    let result = `<div class="header"><h1>${headerTitle}</h1></div>`;
     
     // Build the grid
     if (gridItems.length > 0) {
@@ -90,24 +84,21 @@ function processIframes(html) {
             result += `
                 <div class="iframe-card">
                     <div class="iframe-header">
-                        <h3>${item.title || 'IFrame'}</h3>
+                        <h3>${item.title}</h3>
                     </div>
                     <div class="${wrapperClass}">
                         <div class="loading">Loading...</div>
                         <iframe src="${item.url}" 
-                                title="${item.title || 'IFrame'}"
-                                loading="lazy"></iframe>
+                                title="${item.title}"
+                                loading="lazy"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; xr-spatial-tracking"
+                                allowfullscreen></iframe>
                     </div>
                 </div>
             `;
         });
         
         result += '</div>';
-    }
-    
-    // Add footer
-    if (bodyHtml.trim()) {
-        result += '<div class="footer">' + bodyHtml + '</div>';
     }
     
     return result;
