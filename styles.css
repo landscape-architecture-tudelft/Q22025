@@ -281,3 +281,103 @@ hr {
     color: #ccc;
     font-size: 14px;
 }
+
+/* --- Dark theme overrides (cascade) --- */
+body {
+    background: #0f1115;
+    color: #d0d4da;
+    color-scheme: dark;
+}
+
+.header {
+    background: linear-gradient(135deg,#1c2129,#12161c 55%);
+    border: 1px solid #2a313a;
+    border-radius: 12px;
+    box-shadow: 0 4px 28px -6px rgba(0,0,0,0.6);
+    padding: 24px 20px 26px;
+}
+
+.header h1 {
+    color: #eef2f6;
+    margin-bottom: 12px;
+    font-size: clamp(1.6rem,3.5vw,2.4rem);
+    letter-spacing: .5px;
+}
+
+blockquote { border-left-color:#2e3640; color:#97a2af; }
+hr { border-top-color:#273038; }
+
+.iframe-card {
+    background:#171d23;
+    border:2px solid #202830;
+    border-radius:14px;
+    box-shadow:0 4px 14px -4px rgba(0,0,0,0.55);
+}
+.iframe-card:hover {
+    transform:translateY(-6px);
+    box-shadow:0 10px 36px -10px rgba(0,0,0,0.6);
+    border-color:#3e6fd9;
+    background:#1d242b;
+}
+
+.iframe-header {
+    background:linear-gradient(135deg,#222a32,#1b2229);
+    border-bottom:1px solid #2a3138;
+    color:#d8dee4;
+    font-weight:600;
+    letter-spacing:.4px;
+    padding:14px 18px;
+    font-size:13px;
+}
+.iframe-header h3 {
+    font-size:13px;
+    color:#e4e9ed;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.6px;
+}
+
+.card-body {
+    padding:42px 16px 52px;
+    background:linear-gradient(145deg,#1b232b,#14191e 60%);
+    color:#8fa1b3;
+}
+.open-hint {
+    background:linear-gradient(135deg,#3e6fd9,#5b8cff);
+    padding:7px 14px;
+    border-radius:22px;
+    box-shadow:0 4px 14px -4px rgba(0,0,0,0.5);
+    letter-spacing:.8px;
+    text-shadow:0 1px 2px rgba(0,0,0,0.4);
+}
+
+.loading { color:#9aa6b1; letter-spacing:.5px; }
+
+.footer {
+    background:#151a1f;
+    border:1px solid #232b33;
+    border-radius:12px;
+    color:#8fa1b3;
+    padding:26px 20px 30px;
+    font-size:13px;
+    margin-top:46px;
+}
+
+.overlay-header h2 { color:#e6ebef; letter-spacing:.5px; }
+.close-btn {
+    background:#25313b;
+    color:#d7dde3;
+    border:1px solid #34424e;
+    padding:9px 16px;
+    font-size:13px;
+    border-radius:8px;
+    font-weight:500;
+}
+.close-btn:hover { background:#32404b; box-shadow:0 0 0 2px #2b3944; transform:translateY(-2px); }
+
+.overlay-iframe-wrapper {
+    background:#0d1114;
+    border:1px solid #1f262c;
+    border-radius:16px;
+    box-shadow:0 6px 42px -12px rgba(0,0,0,0.7);
+}
