@@ -48,7 +48,7 @@ function processIframes(html) {
         gridItems.push({ title: `Custom ${customIndex++}`, url: m[2] });
     }
 
-    let result = `<div class="header"><h1>${headerTitle}</h1><p>Click a card to open fullscreen. Press ESC or the close button to exit.</p></div>`;
+    let result = `<div class="header"><h1>${headerTitle}</h1></div>`;
     if (gridItems.length) {
         result += '<div class="grid-container">';
         gridItems.forEach(item => {
