@@ -1,8 +1,50 @@
+// Markdown content embedded directly
+const markdownContent = `# 📱 Responsive IFrame Grid Gallery
+
+> Displays multiple embedded content in a responsive grid layout
+
+## Featured Content
+
+### Luma 1
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 2
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 3
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 4
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 5
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 6
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 7
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 8
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 9
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+### Luma 10
+[iframe]https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false[/iframe]
+
+---
+
+*Edit the markdown content in app.js to customize your iframes!*
+`;
+
 // Fetch and parse the markdown content
 async function loadMarkdown() {
     try {
-        const response = await fetch('content.md');
-        const markdown = await response.text();
+        // Use embedded markdown content instead of fetching
+        const markdown = markdownContent;
         
         // Parse markdown to HTML
         const html = marked.parse(markdown);
@@ -18,7 +60,7 @@ async function loadMarkdown() {
         
     } catch (error) {
         console.error('Error loading markdown:', error);
-        document.getElementById('content').innerHTML = '<div class="header"><h1>Error loading content</h1><p>Could not load content.md</p></div>';
+        document.getElementById('content').innerHTML = '<div class="header"><h1>Error loading content</h1><p>Could not render content</p></div>';
     }
 }
 
