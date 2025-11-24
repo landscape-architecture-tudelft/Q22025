@@ -81,12 +81,22 @@ function setupCardInteractions() {
         document.body.classList.remove('no-scroll');
     }
 
+    // Safety: if overlay accidentally visible with no content, hide after short delay
+    setTimeout(() => {
+        if (!overlay.hasAttribute('hidden') && !overlay.querySelector('iframe')) {
+            closeOverlay();
+            console.warn('Overlay auto-closed (no iframe loaded).');
+        }
+    }, 1500);
+
     container.addEventListener('click', e => {
         const card = e.target.closest('.iframe-card-button');
         if (!card) return;
         const url = card.getAttribute('data-url');
         const title = card.getAttribute('data-title');
         if (!url) return;
+        // Prevent duplicate overlays
+        if (!overlay.hasAttribute('hidden')) return;
         // Build fullscreen content lazily
         overlay.innerHTML = `
             <div class="overlay-inner" role="dialog" aria-label="${title}">
@@ -105,6 +115,13 @@ function setupCardInteractions() {
         iframe.addEventListener('load', () => {
             const loading = overlay.querySelector('.loading');
             if (loading) loading.style.display = 'none';
+        });
+        iframe.addEventListener('error', () => {
+            const loading = overlay.querySelector('.loading');
+            if (loading) {
+                loading.textContent = 'Failed to load iframe';
+                loading.style.color = '#e57373';
+            }
         });
     });
 
