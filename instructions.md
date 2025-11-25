@@ -1,4 +1,4 @@
-# Landscape Technology
+# Landscape Technology Q2
 
 ## The Survey
 
@@ -17,20 +17,17 @@
 
 Document at least 3 landscape elements that reveal the control systems and material culture in the polder landscape. 
 
-Categories:  management structures, crossing infrastructures, boundary systems, or other control mechanisms related to the water system.
-
 Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans in one place. Try also another app for comparison like Pix4DCatch, RealityScan, Polycam, or similar.
 
-**Suggested elements to scan:**
+**Three Categories:**
 
-Water: sluices, culverts, ditch profiles, water level markers, pump stations, etc   
-Mobility: bridges, paths, stiles, cattle grids, signage posts, etc   
-Boundaries: fences (wire, wood, concrete), hedgerows, gates, posts, etc   
-Other control: drainage tiles, irrigation systems, measurement devices, etc   
+1. Control Splats: sluices, culverts, overflows, level markers, drainage, irrigation, pump stations..    
+2. Movement Splats: bridges, locks, paths, elevation changes, cattle grids..   
+3. Boundary Splats: dikes, didges, hedgerows, gates..   
 
 **Deliverables:**
 
-- At least 3 scans using the LUMA app
+- At least 3 scans (one per category) using the LUMA app
 - Optional: 3D files from other apps
 
 ---
