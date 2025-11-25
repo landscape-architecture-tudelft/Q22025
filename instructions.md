@@ -6,7 +6,7 @@
 
 09:00 Meet at the Bouwpup with bikes   
 09:15 Bike ride to Berkelse Zweth Bridge https://maps.app.goo.gl/FzxvnyDABhWpaGQp7   
-09:45 Introduction to the landscape survey and drone flight 
+09:45 Introduction to the landscape survey and drone flight    
 10:30 3D scanning excercise   
 
 13:45 Meet in the studio with your 3D scans   
