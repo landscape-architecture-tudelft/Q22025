@@ -2,6 +2,17 @@
 
 ## The Survey
 
+### Schedule:
+
+09:00 Meet at the Bouwpup with bikes
+09:15 Bike ride to Berkelse Zweth Bridge https://maps.app.goo.gl/FzxvnyDABhWpaGQp7
+09:45 Introduction to the landscape survey
+10:30 3D scanning excercise
+
+13:45 Meet in the studio with your 3D scans
+14:00 Downloading and processing data
+16:00 Presentation of results
+
 **Assignment per student-team:**
 
 Document at least 3 landscape elements that reveal the control systems and material culture in the polder landscape. 
