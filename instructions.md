@@ -37,7 +37,7 @@ At least 3 scans (one per category) using the LUMA app
 
 **Best for:** Gaussian splatting, AI-enhanced captures with automatic processing
 
-**Download:**
+**Downloads:**
 - iOS: https://apps.apple.com/app/luma-ai/id1615849914
 - Android: https://play.google.com/store/apps/details?id=ai.lumalabs.polar&pcampaignid=web_share
 
