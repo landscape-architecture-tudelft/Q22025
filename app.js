@@ -80,7 +80,7 @@ function processIframes(html) {
         const categoryOrder = [
             { key: 'control', name: 'Splats of Water Structures' },
             { key: 'movement', name: 'Splats of Movement Structures' },
-            { key: 'separation', name: 'Splats of Boundary Structures' },
+            { key: 'boundary', name: 'Splats of Boundary Structures' },
             { key: 'uncategorized', name: 'Other' }
         ];
         
