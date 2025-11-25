@@ -2,26 +2,38 @@
 
 <!-- Splats of Control Structures-->
 
+<iframe src="https://lumalabs.ai/embed/d11d4fc4-8733-41c1-83b7-84cd3c1b576b?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="control" width="500" height="500" frameborder="0" title="Pumping Station" style="border: none;"></iframe>
 
+<iframe src="https://lumalabs.ai/embed/e7638a3b-89e9-4240-bf73-d6fc23483279?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="control" width="374" height="500" frameborder="0" title="Lock" style="border: none;"></iframe>
 
-
-
-
+<iframe src="https://lumalabs.ai/embed/efca39aa-e2e6-435c-b86b-cca8b4c522ab?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="control" width="500" height="500" frameborder="0" title="Sluis" style="border: none;"></iframe>
 
 <!-- Splats of Movement Structures-->
 
+<iframe src="https://lumalabs.ai/embed/7a147786-ebf1-45dc-82b8-5d303c59c187?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="movement" width="500" height="500" frameborder="0" title="Pion" style="border: none;"></iframe>
+
+
 <iframe src="https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="movement" width="500" height="500" frameborder="0" title="Concrete connection" style="border: none;"></iframe>
 
+<iframe src="https://lumalabs.ai/embed/6e2670ab-35fc-44aa-9a49-aa1e51e09a38?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="movement" width="500" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
 
 <!-- Splats of Boundary Structures-->
 
+<iframe src="https://lumalabs.ai/embed/a6fca77c-4682-4a1c-8848-c56d92987c73?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false"  data-category="boundary" width="500" height="500" frameborder="0" title="Gate" style="border: none;"></iframe>
+
+<iframe src="https://lumalabs.ai/embed/d7bae666-b8cf-4c7a-b13f-2405c000e6c3?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="boundary"  width="500" height="500" frameborder="0" title="Overflow" style="border: none;"></iframe>
+
 <iframe src="https://lumalabs.ai/embed/dbb57885-59c2-4029-8faa-79d024b18d67?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="boundary" width="500" height="500" frameborder="0" title="Water Threshold" style="border: none;"></iframe>
 
-
-<iframe src="https://lumalabs.ai/embed/4f6448b8-cc65-47cf-ac7e-14938407f5f3?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="280" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
+<iframe src="https://lumalabs.ai/embed/4f6448b8-cc65-47cf-ac7e-14938407f5f3?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="boundary" width="280" height="500" frameborder="0" title="Tree Threshold" style="border: none;"></iframe>
 
 <!-- Other -->
 
-<iframe src="https://lumalabs.ai/embed/7a147786-ebf1-45dc-82b8-5d303c59c187?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="500" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
 
-<iframe src="https://lumalabs.ai/embed/e712ea38-9ea5-4db0-971b-823dde04f9f2?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false"  width="375" height="500" frameborder="0" title="luma embed" style="border: none;"></iframe>
+<iframe src="https://lumalabs.ai/embed/e712ea38-9ea5-4db0-971b-823dde04f9f2?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false"  width="375" height="500" frameborder="0" title="Windmill" style="border: none;"></iframe>
+
+<iframe src="https://lumalabs.ai/embed/71ffb505-539a-4757-8131-da1b7a7d3cbd?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="500" height="500" frameborder="0" title="Windmill" style="border: none;"></iframe>
+
+<iframe scr="https://lumalabs.ai/embed/c9591ed0-fb8d-49ef-92d8-2d3aae419a00?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" width="500" height="500" frameborder="0" title="Row of Willows" style="border: none;"></iframe>
+
+<iframe scr="https://lumalabs.ai/embed/7833efc0-9be6-4c71-bb31-c5c140506f9f?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=true" width="500" height="500" frameborder="0" title="Pumping Station" style="border: none;"></iframe>
