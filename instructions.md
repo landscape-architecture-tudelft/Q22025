@@ -27,30 +27,16 @@ Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans i
 
 **Deliverables:**
 
-- At least 3 scans (one per category) using the LUMA app
-
-## Adding Splats to the Gallery
-
-To add your Gaussian splat to the gallery, you need to edit `content.md` and add an iframe with:
-- `src`: The Luma embed URL
-- `title`: A descriptive name for your splat
-- `data-category`: One of `control`, `movement`, or `boundary`
-
-**Example:**
-```html
-<iframe src="https://lumalabs.ai/embed/YOUR-ID-HERE?mode=sparkles&background=%23000000" 
-        data-category="control" 
-        title="Sluice Gate at Berkelse Zweth" 
-        style="border: none;"></iframe>
-```
+At least 3 scans (one per category) using the LUMA app
 
 **Categories:**
 - `data-category="control"` → Control Splats (sluices, culverts, pumps, etc.)
 - `data-category="movement"` → Movement Splats (bridges, locks, paths, etc.)
 - `data-category="boundary"` → Boundary Splats (dikes, ditches, hedgerows, etc.)
 
-Items without a category will appear in the "Other" section.
-- Optional: 3D files from other apps
+** Adding Splats to the Website**
+
+
 
 ---
 
