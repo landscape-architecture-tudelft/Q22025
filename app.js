@@ -97,7 +97,7 @@ function processInstructions(html) {
     const active = params.get('page') || 'content';
     const navHtml = `
         <nav class="top-nav" aria-label="Main navigation">
-            <a href="?page=content" class="nav-link${active==='content'?' active':''}">Gallery</a>
+            <a href="?page=content" class="nav-link${active==='content'?' active':''}">Splats</a>
             <a href="?page=instructions" class="nav-link${active==='instructions'?' active':''}">Instructions</a>
         </nav>`;
     
