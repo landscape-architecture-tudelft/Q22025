@@ -1,4 +1,4 @@
-# Capturing Flow and Control: Gaussian Splats of Polder Water Structures
+# Landscape Technology - The Survey
 
 Document landscape elements that reveal the control systems and material culture in the polder landscape.
 

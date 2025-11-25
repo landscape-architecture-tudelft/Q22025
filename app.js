@@ -15,11 +15,13 @@ async function loadMarkdown() {
         // Parse markdown to HTML
         const html = marked.parse(markdown);
         
-    // Build lazy cards & inject
-    const processedHtml = processIframes(html);
-    document.getElementById('content').innerHTML = processedHtml;
-    // Wire up interactions
-    setupCardInteractions();
+        // Build page content (either cards for gallery or full content for instructions)
+        const processedHtml = page === 'content' ? processIframes(html) : processInstructions(html);
+        document.getElementById('content').innerHTML = processedHtml;
+        // Wire up interactions only for gallery pages
+        if (page === 'content') {
+            setupCardInteractions();
+        }
         
     } catch (error) {
         console.error('Error loading markdown:', error);
@@ -79,6 +81,30 @@ function processIframes(html) {
     }
     // Add hidden overlay container root
     result += `<div id="fullscreen-overlay" class="fullscreen-overlay" hidden></div>`;
+    return result;
+}
+
+// Process instructions or other markdown pages (render full content)
+function processInstructions(html) {
+    const tempDiv = document.createElement('div');
+    tempDiv.innerHTML = html;
+    
+    const h1 = tempDiv.querySelector('h1');
+    const headerTitle = h1 ? h1.textContent : 'Instructions';
+    
+    // Navigation bar
+    const params = new URLSearchParams(window.location.search);
+    const active = params.get('page') || 'content';
+    const navHtml = `
+        <nav class="top-nav" aria-label="Main navigation">
+            <a href="?page=content" class="nav-link${active==='content'?' active':''}">Gallery</a>
+            <a href="?page=instructions" class="nav-link${active==='instructions'?' active':''}">Instructions</a>
+        </nav>`;
+    
+    // Build result with header and full content
+    let result = `<div class="header">${navHtml}<h1>${headerTitle}</h1></div>`;
+    result += `<div class="markdown-content">${html}</div>`;
+    
     return result;
 }
 
