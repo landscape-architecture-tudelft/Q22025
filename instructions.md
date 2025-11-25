@@ -43,7 +43,7 @@ Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans i
 - Android: https://play.google.com/store/apps/details?id=ai.lumalabs.polar&pcampaignid=web_share
 
 **How to scan:**
-- Pan or circle your subject smoothly at three heights (low, mid, high)
+- Pan or circle your subject smoothly at different heights 
 - Keep subject centered in frame
 - Move at walking pace
 - You can also record a video and upload to app
@@ -61,8 +61,8 @@ Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans i
 **Best for:** Structured, systematic outdoor scanning
 
 **Download:**
-- iOS: https://apps.apple.com/app/pix4dcatch/id1473673685
-- Android: https://play.google.com/store/apps/details?id=com.pix4d.catch
+- iOS: https://apps.apple.com/us/app/pix4dcatch-3d-scanner/id1511483044
+- Android: https://play.google.com/store/apps/details?id=com.pix4dcatch
 
 **How to scan:**
 - Best for models to scale using lidar phones
@@ -102,7 +102,7 @@ Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans i
 
 **Download:**
 - iOS: https://apps.apple.com/app/polycam-3d-scanner/id1532482376
-- Android: https://play.google.com/store/apps/details?id=com.polycam
+- Android: https://play.google.com/store/apps/details?id=ai.polycam
 
 **How to scan:**
 - Choose Photo Mode for best quality (LiDAR mode available on compatible iOS devices)
