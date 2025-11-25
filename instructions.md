@@ -4,14 +4,14 @@
 
 ### Schedule:
 
-09:00 Meet at the Bouwpup with bikes
-09:15 Bike ride to Berkelse Zweth Bridge https://maps.app.goo.gl/FzxvnyDABhWpaGQp7
-09:45 Introduction to the landscape survey
-10:30 3D scanning excercise
+09:00 Meet at the Bouwpup with bikes   
+09:15 Bike ride to Berkelse Zweth Bridge https://maps.app.goo.gl/FzxvnyDABhWpaGQp7   
+09:45 Introduction to the landscape survey   
+10:30 3D scanning excercise   
 
-13:45 Meet in the studio with your 3D scans
-14:00 Downloading and processing data
-16:00 Presentation of results
+13:45 Meet in the studio with your 3D scans   
+14:00 Downloading and processing data   
+16:00 Presentation of results   
 
 **Assignment per student-team:**
 
@@ -23,13 +23,10 @@ Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans i
 
 **Suggested elements to scan:**
 
-Water: sluices, culverts, ditch profiles, water level markers, pump stations, etc
-
-Mobility: bridges, paths, stiles, cattle grids, signage posts, etc
-
-Boundaries: fences (wire, wood, concrete), hedgerows, gates, posts, etc
-
-Other control: drainage tiles, irrigation systems, measurement devices, etc
+Water: sluices, culverts, ditch profiles, water level markers, pump stations, etc   
+Mobility: bridges, paths, stiles, cattle grids, signage posts, etc   
+Boundaries: fences (wire, wood, concrete), hedgerows, gates, posts, etc   
+Other control: drainage tiles, irrigation systems, measurement devices, etc   
 
 **Deliverables:**
 
