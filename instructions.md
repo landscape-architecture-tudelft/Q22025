@@ -1,29 +1,33 @@
-# Landscape Technology - The Survey
+# Landscape Technology
 
-Document landscape elements that reveal the control systems and material culture in the polder landscape.
+## The Survey
 
 **Assignment per student-team:**
 
-Find and scan at least 3 distinct landscape elements from different categories
+Document at least 3 landscape elements that reveal the control systems and material culture in the polder landscape. 
+
 Categories:  management structures, crossing infrastructures, boundary systems, or other control mechanisms related to the water system.
 
-Use the photogrammetry app Luma 3D Capture so we can collect all you scans in one place. Try also another app for comparison like Pix4DCatch, RealityScan, Polycam, or similar.
+Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans in one place. Try also another app for comparison like Pix4DCatch, RealityScan, Polycam, or similar.
 
 **Suggested elements to scan:**
 
 Water: sluices, culverts, ditch profiles, water level markers, pump stations, etc
+
 Mobility: bridges, paths, stiles, cattle grids, signage posts, etc
+
 Boundaries: fences (wire, wood, concrete), hedgerows, gates, posts, etc
+
 Other control: drainage tiles, irrigation systems, measurement devices, etc
 
 **Deliverables:**
 
-- 3 scans using the LUMA app
-- One title per scan 
+- At least 3 scans using the LUMA app
+- Optional: 3D files from other apps
 
 ---
 
-# Apps
+## Apps
 
 ### Luma AI: 3D Capture
 
