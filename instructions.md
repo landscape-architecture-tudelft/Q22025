@@ -29,15 +29,6 @@ Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans i
 
 At least 3 scans (one per category) using the LUMA app
 
-**Categories:**
-- `data-category="control"` → Control Splats (sluices, culverts, pumps, etc.)
-- `data-category="movement"` → Movement Splats (bridges, locks, paths, etc.)
-- `data-category="boundary"` → Boundary Splats (dikes, ditches, hedgerows, etc.)
-
-** Adding Splats to the Website**
-
-
-
 ---
 
 ## Apps
