@@ -400,6 +400,20 @@ hr {
     font-style: italic;
 }
 
+.markdown-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px 0;
+    display: block;
+}
+
+.markdown-content img[src*="github"] {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Category sections */
 .category-section {
     margin-bottom: 56px;
