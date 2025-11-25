@@ -49,7 +49,7 @@ At least 3 scans (one per category) using the LUMA app
 
 **Importing Data**
 
-- Export from web interface, results may vary
+- Export from web interface, results may vary https://lumalabs.ai/dashboard/captures
 - Exports available in OBJ (mesh) or PLY (point cloud). Also 360-degrees image.
 - Note: Free tier has export limitations; paid plans offer higher quality
 
