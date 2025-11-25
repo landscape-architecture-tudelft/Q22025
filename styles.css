@@ -267,6 +267,26 @@ hr {
     background: #111;
     box-shadow: 0 4px 18px rgba(0,0,0,0.4);
 }
+.top-nav {
+    display:flex;
+    gap:12px;
+    justify-content:center;
+    margin:-4px 0 18px;
+}
+.nav-link {
+    text-decoration:none;
+    padding:8px 16px;
+    border-radius:8px;
+    font-size:13px;
+    font-weight:600;
+    letter-spacing:.5px;
+    background:#1f262c;
+    color:#b9c4cc;
+    border:1px solid #2a3138;
+    transition:background .2s, color .2s, box-shadow .2s;
+}
+.nav-link:hover { background:#2a333b; color:#d9e1e7; }
+.nav-link.active { background:#3e6fd9; color:#fff; border-color:#3e6fd9; box-shadow:0 4px 16px -6px rgba(0,0,0,.6); }
 
 .overlay-iframe-wrapper iframe {
     position: absolute;

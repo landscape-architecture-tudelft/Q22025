@@ -1,8 +1,12 @@
 // Fetch and parse the markdown content
 async function loadMarkdown() {
     try {
+        // Determine which markdown page to load (default: content)
+        const params = new URLSearchParams(window.location.search);
+        const page = (params.get('page') || 'content').replace(/[^a-z0-9-_]/gi,'');
+        const mdFile = page + '.md';
         // Fetch the markdown file
-        const response = await fetch('content.md');
+        const response = await fetch(mdFile);
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -48,7 +52,16 @@ function processIframes(html) {
         gridItems.push({ title: `Custom ${customIndex++}`, url: m[2] });
     }
 
-    let result = `<div class="header"><h1>${headerTitle}</h1></div>`;
+    // Navigation bar (simple) with links to gallery & instructions
+    const params = new URLSearchParams(window.location.search);
+    const active = params.get('page') || 'content';
+    const navHtml = `
+        <nav class="top-nav" aria-label="Main navigation">
+            <a href="?page=content" class="nav-link${active==='content'?' active':''}">Gallery</a>
+            <a href="?page=instructions" class="nav-link${active==='instructions'?' active':''}">Instructions</a>
+        </nav>`;
+
+    let result = `<div class="header">${navHtml}<h1>${headerTitle}</h1></div>`;
     if (gridItems.length) {
         result += '<div class="grid-container">';
         gridItems.forEach(item => {
@@ -62,7 +75,7 @@ function processIframes(html) {
         });
         result += '</div>';
     } else {
-        result += '<p>No iframes found in markdown.</p>';
+        result += '<p>No iframe items on this page.</p>';
     }
     // Add hidden overlay container root
     result += `<div id="fullscreen-overlay" class="fullscreen-overlay" hidden></div>`;
