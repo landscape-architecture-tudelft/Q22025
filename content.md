@@ -10,6 +10,8 @@
 
 <iframe src="https://lumalabs.ai/embed/efca39aa-e2e6-435c-b86b-cca8b4c522ab?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="control" width="500" height="500" frameborder="0" title="Sluis" style="border: none;"></iframe>
 
+<iframe src="https://lumalabs.ai/embed/fab9aa78-ebc5-409a-b48e-ab030f5784c3?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="control" width="500" height="500" frameborder="0" title="Tree" style="border: none;"></iframe>
+
 <iframe src="https://lumalabs.ai/embed/9dd7f3bf-d481-4d1a-815e-acc6efa2b5e7?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="control" width="281" height="500" frameborder="0" title="Lower Lock" style="border: none;"></iframe>
 
 <iframe src="https://lumalabs.ai/embed/152a12bc-2e35-4494-aa1b-8d78fd816ff4?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="control" width="500" height="500" frameborder="0" title="Windmill" style="border: none;"></iframe>
@@ -26,6 +28,8 @@
 
 <iframe src="https://lumalabs.ai/embed/772aa812-8881-4085-a9ac-400b51ec53eb?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="movement" width="892" height="500" frameborder="0" title="Two Planks and a Railing" style="border: none;"></iframe>
 
+<iframe src="https://lumalabs.ai/embed/6303bd37-4e5e-410f-8ced-537ff1fa53f0?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="movement" width="500" height="500" frameborder="0" title="Path" style="border: none;"></iframe>
+
 <iframe src="https://lumalabs.ai/embed/a4a1d958-963e-49bd-892d-88a3d0e15f62?mode=sparkles&background=%23000000&color=%23FFFFFF&showTitle=false&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="movement" width="500" height="500" frameborder="0" title="Concrete connection" style="border: none;"></iframe>
 
 <iframe src="https://lumalabs.ai/embed/6e2670ab-35fc-44aa-9a49-aa1e51e09a38?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="movement" width="500" height="500" frameborder="0" title="Bridge" style="border: none;"></iframe>
@@ -37,6 +41,8 @@
 <iframe src="https://lumalabs.ai/embed/bbcb67f1-c3e8-4425-9f37-d82777368c2a?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="boundary" width="500" height="500" frameborder="0" title="Dead Hedge" style="border: none;"></iframe>
 
 <iframe src="https://lumalabs.ai/embed/a8b79a0f-194d-442b-8a00-ef4a3573749d?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="boundary" width="500" height="500" frameborder="0" title="Water Bank with Posts" style="border: none;"></iframe>
+
+<iframe src="https://lumalabs.ai/embed/7d5a51e0-f9dc-4a4b-8621-018250bbb251?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="boundary" width="500" height="500" frameborder="0" title="Lock" style="border: none;"></iframe>
 
 <iframe src="https://lumalabs.ai/embed/d7bae666-b8cf-4c7a-b13f-2405c000e6c3?mode=sparkles&background=%23ffffff&color=%23000000&showTitle=true&loadBg=true&logoPosition=bottom-left&infoPosition=bottom-right&cinematicVideo=undefined&showMenu=false" data-category="boundary"  width="500" height="500" frameborder="0" title="Overflow" style="border: none;"></iframe>
 
