@@ -27,27 +27,28 @@ Photogrammetry is the science and technology of obtaining reliable information a
 
 ## Part 1: Image Aquisition
 
-We will aquire the images using a consumer quadcopter and the Pix4D Capture App. Make sure you are aware of all up-to-date regulations regarding your flight-location and flight-mission using the links above. Before you fly a drone yourself, please review the following check-list that applies only for Switzerland, until 12.12.2020:
+We will aquire the images using a consumer quadcopter and the Pix4D Capture App. Make sure you are aware of all up-to-date regulations regarding your flight-location and flight-mission using the links above. Before you fly a drone yourself, you make sure you pass this:
 
-* I know and comply with the law.
-* I have complete control of my drone.
-* I respect other people's privacy.
-* I am not a danger to people or animals.
-* I do not fly in nature reserves.
-* I check with the local authorities abaut any flying restriction.
-* I avoid other aircraft in good time.
-* I am properly insured.
-* I don't fly more than 150 meters in control zones.
-* I don't fly near emergency services are working.
-* I don't fly over or near 100 m of crowds.
-* I never fly without a visual.
-* The drone doesn't weigh more than 30 kg.
+- Register with RDW if drone weighs 250g+ or has a camera
+- Display operator ID on your drone
+- Pass online theory exam for drones over 250g
+- Remote ID required (except sub-250g drones)
+- Maximum 120 metres altitude
+- Maintain visual line of sight
+- No flying in darkness
+- Stay 150m from people and urban areas
+- No flying over crowds
+- Check no-fly zones via GoDrone/Aeret maps before each flight
+- Always yield to manned aircraft - land immediately
+- No filming people without permission
+- Maximum 25kg drone weight (recreational use)
+- Insurance not mandatory but recommended
+
 
 There are many apps that can do waypoint-missions for DJI (or other) drones like [DroneDeploy](https://www.dronedeploy.com/), [QGroundControl](http://qgroundcontrol.com/), [DJI TERRA](https://enterprise.dji.com/dji-terra?site=enterprise&from=solutions), etc. Be aware that not all drones are supported, and check  compatibility before borrowing or buying a drone for aerial surveys. 
 
 > [!WARNING]  
 > From here on the content might be out dated.
-
 
 ![Photogrammetry_Pix4D_01.jpg](./doc/Photogrammetry_Pix4D_01.jpg)
 
