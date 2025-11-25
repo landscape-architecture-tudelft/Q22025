@@ -1,39 +1,73 @@
-# Mobile Lidar/Photogrammetry Apps for Outdoor Scanning
+# Capturing Flow and Control: Gaussian Splats of Polder Water Structures
 
-## Pix4Dscan
+Document landscape elements that reveal the control systems and material culture in the polder landscape.
 
-**Best for:** Structured, systematic outdoor scanning with flight planning
+**Assignment per student-team:**
+
+Find and scan at least 3 distinct landscape elements from different categories
+Categories:  management structures, crossing infrastructures, boundary systems, or other control mechanisms related to the water system.
+
+Use the photogrammetry app Luma 3D Capture so we can collect all you scans in one place. Try also another app for comparison like Pix4DCatch, RealityScan, Polycam, or similar.
+
+**Suggested elements to scan:**
+
+Water: sluices, culverts, ditch profiles, water level markers, pump stations, etc
+Mobility: bridges, paths, stiles, cattle grids, signage posts, etc
+Boundaries: fences (wire, wood, concrete), hedgerows, gates, posts, etc
+Other control: drainage tiles, irrigation systems, measurement devices, etc
+
+**Deliverables:**
+
+- 3 scans using the LUMA app
+- One title per scan 
+
+---
+
+# Apps
+
+### Luma AI: 3D Capture
+
+**Best for:** Gaussian splatting, AI-enhanced captures with automatic processing
+
+**Download:**
+- iOS: https://apps.apple.com/app/luma-ai/id1615849914
+- Android: https://play.google.com/store/apps/details?id=ai.lumalabs.polar&pcampaignid=web_share
+
+**How to scan:**
+- Pan or circle your subject smoothly at three heights (low, mid, high)
+- Keep subject centered in frame
+- Move at walking pace
+- You can also record a video and upload to app
+
+**Importing Data**
+
+- Export from web interface, results may vary
+- Exports available in OBJ (mesh) or PLY (point cloud). Also 360-degrees image.
+- Note: Free tier has export limitations; paid plans offer higher quality
+
+---
+
+### Pix4Dscan
+
+**Best for:** Structured, systematic outdoor scanning
 
 **Download:**
 - iOS: https://apps.apple.com/app/pix4dcatch/id1473673685
 - Android: https://play.google.com/store/apps/details?id=com.pix4d.catch
 
 **How to scan:**
-- Use guided flight modes (orbit or grid) for consistent coverage
+- Best for models to scale using lidar phones
 - Maintain 70% overlap between photos
 - Walk slowly and keep your phone steady
 - Best lighting: overcast days
 
----
-
-## Luma AI
-
-**Best for:** Quick, AI-enhanced captures with automatic processing
-
-**Download:**
-- iOS: https://apps.apple.com/app/luma-ai/id1615849914
-- Android: Not available (iOS only)
-
-**How to scan:**
-- Circle your subject smoothly at three heights (low, mid, high)
-- Keep subject centered in frame
-- Move at walking pace
-- Follow the app's visual guidance
-- Best lighting: good natural light, avoid harsh shadows
+**Importing into Rhino**
+- Trial version allows for exporting PLY data from the app directly (point cloud data), rhino can read this format.
+- You can process your scan in PIX4Dcloud (desktop or web), but exporting is limited to the paid version. 
 
 ---
 
-## RealityScan
+### RealityScan
 
 **Best for:** Small to medium objects and architectural details
 
@@ -47,6 +81,31 @@
 - Works best for objects up to 2-3 meters
 - Best lighting: even, diffuse light
 
+**Importing into Rhino**
+- Export directly from app or via Sketchfab integration. 
+- Formats: OBJ works well with Rhino.
+
 ---
 
-**Pro tip for all apps:** Scan during overcast weather or golden hour, avoid windy days, and choose subjects with good texture (not shiny or transparent).
+### Polycam
+
+**Best for:** Both small objects and larger landscape elements, versatile for field conditions
+
+**Download:**
+- iOS: https://apps.apple.com/app/polycam-3d-scanner/id1532482376
+- Android: https://play.google.com/store/apps/details?id=com.polycam
+
+**How to scan:**
+- Choose Photo Mode for best quality (LiDAR mode available on compatible iOS devices)
+- Walk around object/structure capturing overlapping photos
+- Aim for 50-100 photos depending on complexity
+- Maintain consistent distance and overlap between shots
+- Works well for both close-up details and larger structures (up to 10+ meters)
+- Best lighting: overcast days or even shade (avoid harsh shadows and direct sunlight)
+
+**Importing into Rhino:**
+- In app: tap your scan → Share/Export → Export Model
+- Choose OBJ format (includes textures)
+- Free tier allows lower resolution exports; Polycam Pro unlocks full resolution
+- Keep texture files in same folder as OBJ file when importing into Rhino
+
