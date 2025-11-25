@@ -62,6 +62,7 @@ function processIframes(html) {
         <nav class="top-nav" aria-label="Main navigation">
             <a href="?page=content" class="nav-link${active==='content'?' active':''}">Splats</a>
             <a href="?page=instructions" class="nav-link${active==='instructions'?' active':''}">Instructions</a>
+            <a href="?page=photogrammetry" class="nav-link${active==='photogrammetry'?' active':''}">Tutorial</a>
         </nav>`;
 
     let result = `<div class="header">${navHtml}<h1>${headerTitle}</h1></div>`;

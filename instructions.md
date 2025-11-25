@@ -117,3 +117,8 @@ At least 3 scans (one per category) using the LUMA app
 - Free tier allows lower resolution exports; Polycam Pro unlocks full resolution
 - Keep texture files in same folder as OBJ file when importing into Rhino
 
+---
+
+## Additional Resources
+
+For a detailed step-by-step guide on photogrammetry techniques and best practices, check out the **[Photogrammetry Tutorial](photogrammetry.md)** or view it directly on the site: [Photogrammetry Tutorial](?page=photogrammetry).
