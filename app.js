@@ -44,14 +44,15 @@ function processIframes(html) {
         const src = iframe.getAttribute('src');
         if (!src) return;
         const title = iframe.getAttribute('title') || `Item ${index + 1}`;
-        gridItems.push({ title, url: src });
+        const category = iframe.getAttribute('data-category') || 'uncategorized';
+        gridItems.push({ title, url: src, category });
     });
 
     // Collect custom markdown [iframe] tags
     const customRegex = /\[iframe(?::(\w+))?\](.*?)\[\/iframe(?::\w+)?\]/g;
     let m; let customIndex = 1;
     while ((m = customRegex.exec(tempDiv.innerHTML)) !== null) {
-        gridItems.push({ title: `Custom ${customIndex++}`, url: m[2] });
+        gridItems.push({ title: `Custom ${customIndex++}`, url: m[2], category: 'uncategorized' });
     }
 
     // Navigation bar (simple) with links to gallery & instructions
@@ -64,18 +65,46 @@ function processIframes(html) {
         </nav>`;
 
     let result = `<div class="header">${navHtml}<h1>${headerTitle}</h1></div>`;
+    
     if (gridItems.length) {
-        result += '<div class="grid-container">';
+        // Group items by category
+        const categories = {};
         gridItems.forEach(item => {
-            result += `
-            <button class="iframe-card iframe-card-button" data-url="${item.url}" data-title="${item.title}" aria-label="Open ${item.title} fullscreen">
-                <div class="iframe-header"><h3>${item.title}</h3></div>
-                <div class="card-body">
-                    <span class="open-hint">Open ▶</span>
-                </div>
-            </button>`;
+            if (!categories[item.category]) {
+                categories[item.category] = [];
+            }
+            categories[item.category].push(item);
         });
-        result += '</div>';
+        
+        // Define category order and display names
+        const categoryOrder = [
+            { key: 'control', name: 'Control Splats' },
+            { key: 'movement', name: 'Movement Splats' },
+            { key: 'boundary', name: 'Boundary Splats' },
+            { key: 'uncategorized', name: 'Other' }
+        ];
+        
+        // Render each category section
+        categoryOrder.forEach(cat => {
+            const items = categories[cat.key];
+            if (!items || items.length === 0) return;
+            
+            result += `<div class="category-section">
+                <h2 class="category-header">${cat.name}</h2>
+                <div class="grid-container">`;
+            
+            items.forEach(item => {
+                result += `
+                <button class="iframe-card iframe-card-button" data-url="${item.url}" data-title="${item.title}" aria-label="Open ${item.title} fullscreen">
+                    <div class="iframe-header"><h3>${item.title}</h3></div>
+                    <div class="card-body">
+                        <span class="open-hint">Open ▶</span>
+                    </div>
+                </button>`;
+            });
+            
+            result += '</div></div>';
+        });
     } else {
         result += '<p>No iframe items on this page.</p>';
     }

@@ -389,6 +389,26 @@ hr {
     font-style: italic;
 }
 
+/* Category sections */
+.category-section {
+    margin-bottom: 48px;
+}
+
+.category-header {
+    color: #e6ebef;
+    font-size: clamp(1.3rem, 2.2vw, 1.6rem);
+    font-weight: 700;
+    letter-spacing: .8px;
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 3px solid #3e6fd9;
+    background: linear-gradient(90deg, #3e6fd9 0%, transparent 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
 .overlay-iframe-wrapper iframe {
     position: absolute;
     inset: 0;
