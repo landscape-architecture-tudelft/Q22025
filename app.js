@@ -78,9 +78,9 @@ function processIframes(html) {
         
         // Define category order and display names
         const categoryOrder = [
-            { key: 'control', name: 'Control Splats' },
-            { key: 'movement', name: 'Movement Splats' },
-            { key: 'boundary', name: 'Boundary Splats' },
+            { key: 'control', name: 'Splats of Water Structures' },
+            { key: 'movement', name: 'Splats of Movement Structures' },
+            { key: 'separation', name: 'Splats of Boundary Structures' },
             { key: 'uncategorized', name: 'Other' }
         ];
         

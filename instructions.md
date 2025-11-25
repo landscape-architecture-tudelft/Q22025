@@ -21,9 +21,9 @@ Use the photogrammetry app **Luma 3D Capture** so we can collect all you scans i
 
 **Three Categories:**
 
-1. Control Splats: sluices, culverts, overflows, level markers, drainage, irrigation, pump stations..    
-2. Movement Splats: bridges, locks, paths, elevation changes, cattle grids..   
-3. Boundary Splats: dikes, didges, hedgerows, gates..   
+1. Splats of Control Structures: sluices, culverts, overflows, level markers, drainage, irrigation, pump stations..    
+2. Splats of Movement Structures: bridges, locks, paths, elevation changes, cattle grids..   
+3. Splats of Boundary Structures: dikes, didges, hedgerows, gates..   
 
 **Deliverables:**
 
